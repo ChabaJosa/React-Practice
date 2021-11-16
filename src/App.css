@@ -36,3 +36,20 @@
     transform: rotate(360deg);
   }
 }
+
+.star-container {
+  height: 150px;
+  width: 150px;
+  background-color: #282c34;
+}
+
+.star { 
+  height: 150px;
+  width: 150px;
+  z-index: 1; 
+}
+
+.rated {
+  /* background-color: darkgoldenrod; */
+  filter: grayscale(var(--value, 100%))
+}
